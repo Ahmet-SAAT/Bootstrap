@@ -1,0 +1,18 @@
+
+:root{
+    --success:#54b13f;
+}
+
+
+.bg-success{
+    background-color: var(--success) !important;
+}
+.text-success{
+    color: var(--success) !important;
+}
+.link-success{
+    color: var(--success) !important;
+}
+.border-success{
+   border:1px solid !important;
+}
