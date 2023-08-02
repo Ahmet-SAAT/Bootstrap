@@ -1,0 +1,8 @@
+.container .row .card .card-footer div {
+    border-right: 1px solid rgba(243, 235, 229, 0.533);
+    padding: 5px;
+}
+
+.container .row .card .card-footer div:last-child {
+    border-right: none;
+}
