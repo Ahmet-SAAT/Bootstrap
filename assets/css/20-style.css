@@ -1,8 +1,16 @@
 .container .row .card .card-footer div {
     border-right: 1px solid rgba(243, 235, 229, 0.533);
-    padding: 5px;
+    flex-grow: 1;
 }
 
 .container .row .card .card-footer div:last-child {
     border-right: none;
+}
+
+.container .row div[class^="col-"]:nth-child(2) .card {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
